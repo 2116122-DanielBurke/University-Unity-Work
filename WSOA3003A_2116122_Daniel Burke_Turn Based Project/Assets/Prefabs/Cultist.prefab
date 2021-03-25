@@ -42,6 +42,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -128,9 +129,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitName: Cultist
   unitLevel: 2
-  healChargeMax: 0
-  healChargeValue: 0
-  currHealCharge: 0
+  healChargeMax: 1
+  healChargeValue: 10
+  currHealCharge: 1
   damage: 5
   maxHP: 25
   currHP: 25
