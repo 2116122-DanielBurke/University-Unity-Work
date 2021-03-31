@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Slime01
+  - Cultist
+  - CursedCultist
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Unlit
+  - BattleMenu
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: OffScreen
+    uniqueID: 650868679
+    locked: 0
+  - name: TileMap
+    uniqueID: 2545779831
+    locked: 0
+  - name: BattleMenu
+    uniqueID: 3227643255
+    locked: 0
+  - name: MoveScreen
+    uniqueID: 2872163265
+    locked: 0
