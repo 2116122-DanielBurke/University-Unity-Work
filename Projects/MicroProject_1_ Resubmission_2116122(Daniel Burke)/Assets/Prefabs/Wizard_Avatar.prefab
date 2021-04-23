@@ -44,6 +44,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e3ff6e2170fff14983281ccff21a702, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  name: 
+  currHP: 0
+  maxHP: 0
+  currPotion: 0
+  maxPotion: 0
+  potionVal: 0
+  curSkill01: 0
+  maxSkill01: 0
+  curSkill02: 0
+  maxSkill02: 0
+  curSkill03: 0
+  maxSkill03: 0
+  damage: 0
 --- !u!1 &4745321383161725029
 GameObject:
   m_ObjectHideFlags: 0
@@ -93,7 +106,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

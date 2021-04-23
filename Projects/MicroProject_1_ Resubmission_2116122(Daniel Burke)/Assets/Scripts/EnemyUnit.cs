@@ -4,15 +4,28 @@ using UnityEngine;
 
 public class EnemyUnit : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public int maxHP;
+    public int currHP;
+
+    public int damage;
+
+    public int healValue;
+
+    public string name;
+    public bool TakeDamage(int dmg)
     {
-        
+        currHP -= dmg;
+
+        if (currHP <= 0)
+        {
+            return true;
+        }
+        else { return false; }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Heal()
     {
-        
+        currHP += healValue;
     }
+
 }
